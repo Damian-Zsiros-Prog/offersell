@@ -1,0 +1,13 @@
+@import url(./header.css);
+@import url(./form.css);
+@import url(./main.css);
+main {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

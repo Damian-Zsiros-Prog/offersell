@@ -1,0 +1,82 @@
+@import url("./main.css");
+
+main {
+  width: 100%;
+  margin-top: 20px;
+}
+main .primary-button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px;
+  background-color: rgb(9, 141, 229);
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+
+.primary-button:hover {
+  background-color: rgb(35, 167, 255);
+}
+.product-data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-data .product-img {
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+.product-info {
+  width: auto;
+  height: 100%;
+  margin: auto 0;
+  
+}
+
+.product-info .product-title {
+  font-family: var(--font-lato);
+  font-size: 28px;
+  text-align: justify;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.product-state {
+  font-size: 24px;
+}
+
+.product-price span {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.product-info .primary-button {
+  display: block;
+  text-align: center;
+}
+
+.info-seller {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px ridge #a0a0a0;
+}
+
+.info-seller h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.info-seller h3 {
+  font-size: 20px;
+  font-weight: 400;
+}

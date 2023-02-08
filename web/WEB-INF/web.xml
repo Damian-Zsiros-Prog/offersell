@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>UsersController</servlet-name>
+        <servlet-class>co.edu.unisinu.desarrollo1.controller.UsersController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CloseSessionController</servlet-name>
+        <servlet-class>co.edu.unisinu.desarrollo1.controller.CloseSessionController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OffersController</servlet-name>
+        <servlet-class>co.edu.unisinu.desarrollo1.controller.OffersController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsersController</servlet-name>
+        <url-pattern>/UsersController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CloseSessionController</servlet-name>
+        <url-pattern>/CloseSessionController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OffersController</servlet-name>
+        <url-pattern>/OffersController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,57 @@
+@import url("./main.css");
+
+main {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+}
+
+.product-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+  grid-gap: 20px;
+  padding: 24px;
+}
+
+.product-item {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #a0a0a0c7;
+  transition: all 0.5s;
+}
+.product-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-10px) scale(1.02);
+}
+
+.product-item .product-img img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-item .product-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.product-item .product-name {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+}
+
+.product-item .product-price {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+}
